@@ -27,7 +27,7 @@ int enter( char *str )
 	{
 		//菜单
 		m_enu();
-		printf("请输入您要操作的选项: ");
+		printf("  请输入您要操作的选项:_");
 		scanf("%d",&tmp);
 		getchar();
 		

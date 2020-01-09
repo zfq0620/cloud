@@ -171,10 +171,9 @@ void download( int i )
 	}
 	int r_end = -1;
 	recv(i,&r_end,4,0);
-	if(r_end == 0)
-	{
-		printf( "file download success\r\n" );
-	}
+	if()
+	printf( "file download success\r\n" );
+
 }
 
 /*
